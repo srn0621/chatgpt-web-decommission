@@ -149,8 +149,8 @@ async function fetchUsage() {
     if (!useResponse.ok)
       throw new Error('获取使用量失败')
     const usageData = await useResponse.json() as UsageResponse
-    const usage = Math.round(usageData.total_usage) / 100 * 70.5
-    return Promise.resolve(usage ? `$${usage}` : '-')
+    const usage = Math.round(usageData.total_usage) * 6.9
+    return Promise.resolve(usage ? `￥${usage}` : '-')
   }
   catch (error) {
     global.console.log(error)
