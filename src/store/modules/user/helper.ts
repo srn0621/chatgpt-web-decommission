@@ -16,7 +16,8 @@ export function defaultSetting(): UserState {
   return {
     userInfo: {
       avatar: 'https://github.com/srn0621/chatgpt-web/blob/main/src/assets/avatar.jpg',
-      name: 'ChatAI'
+      name: 'ChatAI'.
+			description: 'Chatgpt'
     },
   }
 }
