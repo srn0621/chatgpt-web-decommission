@@ -25,7 +25,7 @@ export default {
     success: '성공',
     failed: '실패',
     verify: '검증',
-    unauthorizedTips: '인증되지 않았습니다. 먼저 확인하십시오.',
+    unauthorizedTips: '웹 사이트는 http://finechat.club으로 이전되었습니다. 계속 사용하실 수 있습니다.',
   },
   chat: {
     newChatButton: '새로운 채팅',
