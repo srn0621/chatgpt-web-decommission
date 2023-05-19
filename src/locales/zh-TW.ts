@@ -25,7 +25,7 @@ export default {
     success: '操作成功',
     failed: '操作失敗',
     verify: '驗證',
-    unauthorizedTips: '未經授權，請先進行驗證。',
+    unauthorizedTips: '網站已轉移至http://finechat.club，歡迎繼續使用',
   },
   chat: {
     newChatButton: '新建對話',
