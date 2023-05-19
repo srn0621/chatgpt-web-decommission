@@ -25,7 +25,7 @@ export default {
     success: 'Success',
     failed: 'Failed',
     verify: 'Verify',
-    unauthorizedTips: 'Unauthorized, please verify first.',
+    unauthorizedTips: 'The website has been transferred to http://finechat.club, welcome to continue to use',
   },
   chat: {
     newChatButton: 'New Chat',
